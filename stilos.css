@@ -1,0 +1,278 @@
+    body {
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        background-attachment: fixed;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+    }
+    #container {
+       
+        margin: 1px;
+        
+
+    }
+    
+
+    #main-header {
+	background: black;
+	color:black;
+	height: 170px;
+}	
+	#main-header a {
+		color: white;
+	}
+
+/*
+ * Logo
+ */
+.logo {
+	float: left;
+	margin-left: 20px;
+	
+}
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding-top: 120px;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: linear-gradient(220.55deg, #FFD439 0%, #FF7A00 100%);
+				}
+
+
+
+
+
+
+    header {
+      background: #cc2b2b;
+        height: 600px;
+        width: 100%;
+        text-align: center;
+        line-height: 100px;
+        border: 3px black;
+    }
+    nav {
+ 
+        height: 60px;
+        border-bottom: 2px sblack;
+    }
+    nav ul li {
+
+       float: left; 
+       list-style: none;
+       margin: 10px;
+       line-height:30px ;
+    }
+    
+  
+    #content {
+        float: left;
+        width: calc( 100% - 100);
+        background: url(fondos/00003.png);
+        background-size: 100% 100%;
+        min-height: 500px;
+        padding:40px ;
+    }
+    .article {
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #eee;
+    
+    }
+    .article:first-child {
+        padding: 10px;
+        border:1px #eee ;
+    }
+    .article h2 {
+        font-size: 25px;
+
+    }
+
+
+    aside {
+      float:left; 
+      width: 325px; 
+      height: 3730px;
+      background: linear-gradient(220.55deg, #FFC328 0%, #E20000 100%);
+      padding-left: 3px;
+      padding-right: 5px;
+      
+      
+      
+    }
+ 
+  button {
+    float: right;
+  }
+.logoo {
+    border-radius:100px;
+    border-top: 3px;
+
+   }
+.leyenda {
+    color: white;
+    font-size: 14px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+ .btn-primary {
+    margin-right: 15px;
+    margin-top: 
+    120px;
+ }
+ .navbar-expand-lg {
+    margin-top: px;
+    margin-left: 5px;
+    
+    width: 500px;
+    
+ }
+ .offcanvas-body {
+    background: url(fotos/estudiantes3.jpeg);
+    opacity: 80%;
+    
+ }
+ .logg {
+    margin-top: 5px;
+    margin-right: 750px;
+    float: left;
+ }
+
+ /* boton whatsapp */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#btn-mas{
+    display: none;
+}
+.redeswhatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+   
+
+}
+.redes a, .btn-mas label{
+    display: block;
+    text-decoration: none;
+   background: linear-gradient(220.55deg, #FFE70B 0%, #27B643 100%);
+    color: rgba(238, 96, 13, 0.829);
+    width: 70px;
+    height: 70px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition: all 500ms ease;
+}
+.redes a:hover{
+   background: linear-gradient(220.55deg, #FFF500 0%, #FFB800 100%);
+    color: #cc2b2b;
+}
+.redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-mas:checked~ .redes a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+.btn-mas label{
+    cursor: pointer;
+    font-size: 23px;
+}
+#btn-mas:checked ~ .btn-mas label{
+    transform: rotate(135deg);
+    font-size: 25px;
+}
+#emailAddress {
+    width: 320px;
+}
+ /* integrantes */  
+
+ .clearfix {
+       margin-left: 15px; 
+    }
+ .tablass {
+  float: left;
+  border:#CACFD2 3px solid;
+  border-radius: 30px;
+  padding: 20px;
+  color: #fff;
+  width: 344px;
+  margin: 26px;
+  background: linear-gradient(220.55deg, #FFC328 0%, #E20000 100%);
+ }
+ 
+ /* Suscrípcion a newsletter */  
+
+ .input_send {
+ background: linear-gradient(220.55deg, #FFF500 0%, #FFB800 100%);
+    font-weight: 600;
+    width: 80%;
+    max-width: 100px;
+    height: 60px;
+    outline: none;
+    border: none;
+    font: inherit;
+    border-radius: .6em;
+
+ }
+ .tu-email {
+border-radius: .6em;
+background: linear-gradient(220.55deg, #FFF500 0%, #FFB800 100%);
+font-weight: 600;
+    width: 80%;
+    max-width: 250px;
+    height: 60px;
+    outline: none;
+    border: none;
+    font: inherit;
+    padding: 10px;
+ }  
+
+ 
+ 
+ 
+  /* Pie de paguina */  
+ 
+ footer {
+        background: linear-gradient(220.55deg, #FFF500 0%, #FF00B8 100%);
+        color: antiquewhite;
+        height: 220px;
+        width: 1220px;
+        line-height: 50px;
+        padding: 15px;
+
+    }
+    .derechos {
+       padding-left: 540px;
+    }
+    
